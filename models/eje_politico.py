@@ -8,8 +8,11 @@ def app():
     dash1_container = st.container()
 
     with header_container:
-        #st.image('./images/calculator.jpg')
-        st.title('Ukuphila + Vida')
+        titulo, espacio, imagen = st.columns(3)
+        
+        titulo.title('Ukuphila +')
+        espacio.title('Vida')
+        imagen.image('./images/Logo2.png', width= 150)
 
     with dash1_container:
         st.subheader('Subtitulo 1')

@@ -5,12 +5,22 @@ import streamlit as st
 def app():
     
     header_container = st.container()
+    intro_container = st.container()
     dash1_container = st.container()
     dash2_container = st.container()
-
+    
     with header_container:
-        #st.image('./images/calculator.jpg')
-        st.title('Ukuphila + Vida')
+        titulo, espacio, imagen = st.columns(3)
+        
+        titulo.title('Ukuphila +')
+        espacio.title('Vida')
+        imagen.image('./images/Logo2.png', width= 150)
+
+    with intro_container:
+        st.subheader('Abordaje del analisis')
+        st.write('')
+        st.write('')
+        st.write('')
 
     with dash1_container:
         st.subheader('Subtitulo 1')
