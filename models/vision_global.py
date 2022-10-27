@@ -24,7 +24,7 @@ def app():
         espacio1, espacio2, imagen1, espacio3, espacio4  = st.columns(5)
         espacio1.write(' ')
         espacio2.write(' ')
-        imagen1.image('./images/crecimiento.png', width= 100)
+        imagen1.image('./images/Crecimiento.png', width= 100)
         espacio3.write(' ')
         espacio4.write(' ')
         st.write('Crear el camino hacia entender cómo sucede que, en el mismo mundo, tengamos brechas tan marcadas en este indicador encontrando países donde hay una media de 50 a 53 años como esperanza de vida al nacer, Lesoto, Chad, Angola, Sierra Leona, y luego tenemos la otra de países como, Japón, Italia, Suiza, Australia, Andorra que trasmiten realidad opuestas. Para evidenciar estos aspectos se requieren de herramientas para tratar los datos que permitan volver visible la información y es de gran importancia que su utilización se difunda. Con proyectos como estos es que se busca una democratización de la información, y se busca que estos lleguen a los puestos de poder que toman las decisiones para trabajar sobre estas realidades.')
