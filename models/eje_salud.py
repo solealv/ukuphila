@@ -27,7 +27,7 @@ def app():
         st.write('La revisión desde el punto de vista económico para el eje salud abordó una ventana temporal de 60 años y dos conjuntos de datos. Por una parte el gasto sanitario de las administraciones públicas nacionales expresado como porcentaje del PIB y por otra parte el gasto sanitario corriente per cápita expresado en dólares corrientes.')
         
         ########################## dashboard ############################
-        components.iframe('https://app.powerbi.com/view?r=eyJrIjoiNWM0NzM2MDgtMmZkOS00MDYwLTgzNTctNmJiZmFmNGYxOTE5IiwidCI6IjE4OWJmYzRlLWY3ZjEtNGEzZC04MjhhLWU2NDM0ZmMxZjJlNyJ9', height=450)
+        components.iframe('https://app.powerbi.com/view?r=eyJrIjoiNWM0NzM2MDgtMmZkOS00MDYwLTgzNTctNmJiZmFmNGYxOTE5IiwidCI6IjE4OWJmYzRlLWY3ZjEtNGEzZC04MjhhLWU2NDM0ZmMxZjJlNyJ9&pageName=ReportSection12e7e61b65ed10477328', height=450)
         ########################## dashboard ############################
         
         st.write('##### Observaciones')
